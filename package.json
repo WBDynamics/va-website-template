@@ -1,7 +1,6 @@
 {
-  "name": "va-prepare",
+  "name": "va-website-template",
   "version": "1.0.0",
-  "description": "Maternal Health Summit",
   "main": "index.js",
   "author": "WBD",
   "license": "ISC",
