@@ -1,3 +1,8 @@
+a.back-to-top .show {
+    border-bottom: 1px solid #f9f9f9;
+    margin-bottom: 5px;
+    display: block;
+}
 a.back-to-top {
     z-index: 8990;
     position: fixed;
@@ -14,26 +19,20 @@ a.back-to-top {
     -webkit-transition: all 0.3s linear;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
-
-    i {
-        color: #fff;
-        margin: 0;
-        position: relative;
-        -webkit-transition: all 0.3s ease;
-        transition: all 0.3s ease;
-    }
-
-    &:hover {
-        background: #8b0a03;
-    }
-
-    &:focus {
-        outline: 0 !important;
-    }
-
-    &.show {
-        border-bottom: 1px solid #f9f9f9;
-        margin-bottom: 5px;
-        display: block;
-    }
+}
+a.back-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+a.back-to-top:hover {
+    background: #8b0a03;
+}
+a.back-to-top:hover i {
+    color: #fff;
+}
+a.back-to-top:focus {
+    outline: 0 !important;
 }
