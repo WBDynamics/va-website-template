@@ -4,32 +4,44 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-  <meta name="description" content="Located in Silicon Valley, the National Center for Collaborative Healthcare Innovation is translating complex technologies from the research bench to the clinical bedside.">
-  <meta name="keywords" content="National Center for Collaborative Healthcare Innovation, NCCHI">
-  <title>VHA - National Centers for Collaborative Healthcare Innovation</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <title>VA Website Template</title>
+
+  <meta property="og:title" content="((TITLE))">
+  <meta property="og:url" content="((URL))">
+  <meta property="og:description" content="((DESCRIPTION))">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="((OG:IMAGE URL))">
 
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="../assets/css/styles.css">
-
+  
   <link id="favicon" rel="shortcut icon" href="assets/img/favicon.ico">
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
   <script src="../assets/uswds/js/uswds-init.min.js"></script>
+</head>
 
-  <body class="">
+<body>
 
+    <!-- SITE WRAPPER - START -->
     <div class="site-wrapper">
-    <div class="usa-overlay"></div>
+      {% include "header-sub.html" %}
+      
+        <main>
+            <div style="height: 200px;"></div>
+        </main>
 
-    {% include "header-sub.html" %}
+        {% include "footer-sub.html" %}
 
-    <main>
-      <div style="height: 200px;"></div>
-    </main>
+    </div>
+    <!-- SITE WRAPPER - END -->
 
-    {% include "footer-sub.html" %}
-    
     <script src="../assets/uswds/js/uswds.min.js"></script>
+    <script src="../assets/js/vendors/lazy/jquery.lazy.min.js"></script>
     <script src="../assets/js/functions.js"></script>
-  </body>
+
+</body>
+
 </html>
