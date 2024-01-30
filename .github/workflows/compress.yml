@@ -14,4 +14,4 @@ jobs:
           ref: ${{ github.head_ref }}
       - uses: namoscato/action-tinify@v1
         with:
-          api_key: ${{ secrets.TINIFY_API_KEY }}      
+          api_key: ${{ secrets.T36NQQR37G3pN5RN1PMq7t1b4N0yYbZF }}      
